@@ -7,6 +7,8 @@ import pickle
 from pathlib import Path
 import streamlit_authenticator as stauth
 
+st.set_option('browser.serverFileWatcherType', 'none')
+
 # --------------------------
 # --Page tab configuration--
 # --------------------------
